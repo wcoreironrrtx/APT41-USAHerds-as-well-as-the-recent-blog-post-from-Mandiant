@@ -3,6 +3,14 @@
 DateAdded,IoC,Type,TLP
 7/16/2021,Time12.cf,domainname,White
 7/16/2021,Afdentry.workstation.eu.org,domainname,White
+7/16/2021,cdn.ns.time12.cf,domainname,White
+7/16/2021,east.winsproxy.com,domainname,White
+7/16/2021,afdentry.workstation.eu.org,domainname,White
+7/16/2021,ns1.entrydns.eu.org,domainname,White
+7/16/2021,subnet.milli-seconds.com,domainname,White
+7/16/2021,work.viewdns.ml,domainname,White
+7/16/2021,work.queryip.cf,domainname,White
+
 
 7/16/2021,\\windows\\system32\\Physmem.sys ,filepath1,White
 7/16/2021,\\Windows\\system32\\ime\\SHARED\\WimBootConfigurations.ini,filepath3,White
