@@ -10,6 +10,9 @@ DateAdded,IoC,Type,TLP
 7/16/2021,subnet.milli-seconds.com,domainname,White
 7/16/2021,work.viewdns.ml,domainname,White
 7/16/2021,work.queryip.cf,domainname,White
+7/16/2021,microsoftfile.com,domainname,White
+7/16/2021,down-flash.com,domainname,White
+7/16/2021,libxqagv.ns.dns3.cf,domainname,White
 
 
 7/16/2021,\\windows\\system32\\Physmem.sys ,filepath1,White
