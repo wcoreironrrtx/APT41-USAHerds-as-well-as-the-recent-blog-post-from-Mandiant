@@ -55,30 +55,20 @@ d3n16yao9o6z9d.cloudfront.net
 7/16/2021,67.205.132.162,IP,White
 7/16/2021,182.239.92.31,IP,White
 7/16/2021,103.238.225.37,IP,White
-7/16/2021,,IP,White
+7/16/2021,104.18.7.251,IP,White
 7/16/2021,45.84.1.181,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
-7/16/2021,,IP,White
+7/16/2021,34.139.13.46,IP,White
+7/16/2021,192.155.81.36,IP,White
+7/16/2021,104.18.6.251,IP,White
+7/16/2021,139.59.248.56,IP,White
+7/16/2021,104.18.7.251,IP,White
+7/16/2021,34.139.13.46,IP,White
+7/16/2021,104.16.0.0/13,IP,White
+7/16/2021,104.149.140.182,IP,White
+7/16/2021,18.118.56.237,IP,White
+7/16/2021,35.87.250.69,IP,White
+7/16/2021,35.87.250.69,IP,White
 
-34.139.13.46
-104.18.7.251
-192.155.81.36 – download malicious tools and exfiltrate files
-104.18.6.251 – download malicious tools and exfiltrate file
-139.59.248.56 – used to download malicious tools and exfiltration
-104.18.7.251 – C2 destination10
-34.139.13.46 – Exploit source
-104.16.0.0/13 – Remote subnet
-104.149.140.182
-18.118.56.237
-35.87.250.69
 20.121.42.11
 104.149.134.38
 104.149.140.180/30
