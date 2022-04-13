@@ -83,7 +83,6 @@ d3n16yao9o6z9d.cloudfront.net
 107.172.210.69
 172.104.206.48
 108.138.19.129
-Possible IPs associated with intrusion (possibly recon or secondary exploit sources):
 172.104.46.213
 138.124.180.203
 34.117.254.173
@@ -91,22 +90,22 @@ Possible IPs associated with intrusion (possibly recon or secondary exploit sour
 34.120.243.77
 34.98.122.108
 34.120.85.253
-104.149.134.38 – C2 destination 
-8.46.116.152 – Exploit source (Cloudflare)
+104.149.134.38 
+8.46.116.152 
 
-SymEFASI.dat (Keyplug – dropped in C:\programdata\symefasi\)
-a.exe (Bat2Exe – creates a scheduled task for Keyplug and executes it)
-b.exe (Bad Potato) 
-s.exe (SweetPotato) 
-h.exe (Potato) 
-dwn.exe (unknown)
-ff.DAT (unknown)
-pa.DAT (unknown)
-s.dat (unknown)
-shark.dat (unknown)
-shark2.dat (unknown)
-x64.dll (unknown)
-USOShared.xlm (unknown)
+SymEFASI.dat 
+a.exe 
+b.exe 
+s.exe 
+h.exe 
+dwn.exe 
+ff.DAT 
+pa.DAT 
+s.dat 
+shark.dat 
+shark2.dat
+x64.dll 
+USOShared.xlm 
 
 
 0FCD7A8B37EDAD2F9090B44096D27FC8
@@ -121,24 +120,23 @@ f8eefd05b03055d2beccdde299086328
 dbf0bf5264ce164cd02c2da7e0151ec6
 c4bbab6d0b96a0ca7f8d520675bd273d
 eeddaaa11fa7231a8f4016d43530bf77
-143278845a3f5276a1dd5860e7488313 – BADPOTATO
+143278845a3f5276a1dd5860e7488313 
 069a5b09fb66a4c6cf0f62dab4e76220
-Da89dcefcde116e4c9569f6d367e3c73 – Dropper
+Da89dcefcde116e4c9569f6d367e3c73 
 f8eefd05b03055d2beccdde299086328
 dbf0bf5264ce164cd02c2da7e0151ec6
-139dbb1cb6a292abe2b162179d7e6c56 – Webshell
-17851fbe051ba87664447e17e1e3ef61 – DEADEYE
-1f18fef3235774187ab98acc7936d1c2 – DEADEYE
-258fd54579185c08b3dd14ea3deec991 – DEADEYE
-3f812f8f759c82bd8c313103ea02ea63 – LOWKEY
-4d866a6d8aeb677a9592f0b40f3f328a – KEYPLUG
-623edb0c7cb9b811544c38027b7e3e58 – MIMIKATZ
-7f46277080e124b34f5887449db6a5f4 – KEYPLUG
-b5aa4107a1feec9707a1f6f26886fa6d – KEYPLUG
-e34f8c9044120d6149aca99658131d1d – DEADEYE
-ebcf7556224f4fe8a726d2eb85b589cf – KEYPLUG
-f35b410326f97ef995a865b464141d3e – Unknown
-c843b00b8e0ab346c558ce4894600183 – Unknown
+139dbb1cb6a292abe2b162179d7e6c56 
+17851fbe051ba87664447e17e1e3ef61 
+1f18fef3235774187ab98acc7936d1c2 
+258fd54579185c08b3dd14ea3deec991 
+3f812f8f759c82bd8c313103ea02ea63 
+4d866a6d8aeb677a9592f0b40f3f328a 
+7f46277080e124b34f5887449db6a5f4
+b5aa4107a1feec9707a1f6f26886fa6d 
+e34f8c9044120d6149aca99658131d1d 
+ebcf7556224f4fe8a726d2eb85b589cf 
+f35b410326f97ef995a865b464141d3e
+c843b00b8e0ab346c558ce4894600183 
 8FDFD9D1D62D4B8CC863F24BBD96FD8A 
 2AA991C7B8DE2DBABA3962263DD6E6BE
 BFE8D5AA5831D7C7C1A9DBF4323DAE5E 
@@ -172,7 +170,7 @@ d5bedeb401a84070a460409a19929acaaeead892
 6f6b51e6c88e5252a2a117ca1cfb57934930166b
 4edcec79780cde00df3fdac9b40a70106c3a8de5
 Df01f4aae885eb8126b91da7bdaa7d94696d0943
-12aa9d56903f57df3802a9c79107ea9c s-1-5-18 – DEADEYE
+12aa9d56903f57df3802a9c79107ea9cs-1-5-18 
 fbef9a5d1337c6ce979d31ca1411456ab5e5938a8a593436b6c91409a3c4436a
 b6488338d74248096eef15ce58bde96a13a8bd805f3ff76da679b5ef9728e7a8
 a4647fcb35c79f26354c34452e4a03a1e4e338a80b2c29db97bba4088a208ad0
