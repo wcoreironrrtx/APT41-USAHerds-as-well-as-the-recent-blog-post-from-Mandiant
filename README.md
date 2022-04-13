@@ -1,6 +1,5 @@
 # APT41-USAHerds-as-well-as-the-recent-blog-post-from-Mandiant
 
-DateAdded,IoC,Type,TLP
 7/16/2021,Time12.cf,domainname,White
 7/16/2021,Afdentry.workstation.eu.org,domainname,White
 7/16/2021,cdn.ns.time12.cf,domainname,White
@@ -69,7 +68,6 @@ d3n16yao9o6z9d.cloudfront.net
 7/16/2021,,IP,White
 7/16/2021,,IP,White
 
-IPs
 34.139.13.46
 104.18.7.251
 192.155.81.36 – download malicious tools and exfiltrate files
@@ -106,22 +104,21 @@ Possible IPs associated with intrusion (possibly recon or secondary exploit sour
 104.149.134.38 – C2 destination 
 8.46.116.152 – Exploit source (Cloudflare)
 
-File Names
-• SymEFASI.dat (Keyplug – dropped in C:\programdata\symefasi\)
-• a.exe (Bat2Exe – creates a scheduled task for Keyplug and executes it)
-• b.exe (Bad Potato) 
-• s.exe (SweetPotato) 
-• h.exe (Potato) 
-• dwn.exe (unknown)
-• ff.DAT (unknown)
-• pa.DAT (unknown)
-• s.dat (unknown)
-• shark.dat (unknown)
-• shark2.dat (unknown)
-• x64.dll (unknown)
-• USOShared.xlm (unknown)
-Hashes
-MD5
+SymEFASI.dat (Keyplug – dropped in C:\programdata\symefasi\)
+a.exe (Bat2Exe – creates a scheduled task for Keyplug and executes it)
+b.exe (Bad Potato) 
+s.exe (SweetPotato) 
+h.exe (Potato) 
+dwn.exe (unknown)
+ff.DAT (unknown)
+pa.DAT (unknown)
+s.dat (unknown)
+shark.dat (unknown)
+shark2.dat (unknown)
+x64.dll (unknown)
+USOShared.xlm (unknown)
+
+
 0FCD7A8B37EDAD2F9090B44096D27FC8
 c4bbab6d0b96a0ca7f8d520675bd273d
 eeddaaa11fa7231a8f4016d43530bf77
@@ -175,7 +172,6 @@ be900dddd36e4408df232bbd941cef78
 a693834690a432389811ceed601bbfb6 
 d8949ba3fa463607d3938f424c1cf8cd 
 
-SHA1
 d5bedeb401a84070a460409a19929acaaeead892
 57b2c1299d79892fe313fd62428226ccbf2fc376
 6f6b51e6c88e5252a2a117ca1cfb57934930166b
@@ -187,7 +183,6 @@ d5bedeb401a84070a460409a19929acaaeead892
 4edcec79780cde00df3fdac9b40a70106c3a8de5
 Df01f4aae885eb8126b91da7bdaa7d94696d0943
 12aa9d56903f57df3802a9c79107ea9c s-1-5-18 – DEADEYE
-SHA256
 fbef9a5d1337c6ce979d31ca1411456ab5e5938a8a593436b6c91409a3c4436a
 b6488338d74248096eef15ce58bde96a13a8bd805f3ff76da679b5ef9728e7a8
 a4647fcb35c79f26354c34452e4a03a1e4e338a80b2c29db97bba4088a208ad0
@@ -222,24 +217,23 @@ DF97E0733197DE3F2F65408F044028EFE2D09794A773DEA2E32FACA40527555C
 a5abaa278ad33bfdb82751be586795acaf8877f85d734874a0939b902f89f6f4
 eea77d0a74b229ec2add7c7d9e030c9735e13eddd5effa03ffd853d92962e924
 
-IOCs
-• Repeated HTTP POST requests to “/usaherds/Logon.aspx” 
-• fileupload.aspx within .\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary 
-ASP.NET
-• Files\usaherds\c99cd219\8fb4a6b8
-• App_Web_egdio02m.dll within .\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary
-• ASP.NET Files\usaherds\c99cd219\8fb4a6b8
-• t.dll within .\Users\Public
-• ntuser.dll.zip within .\TEMP
-• cmqpxyxl within .\Windows\Temp
-• t.dll.zip within .\TEMP
-• cmxnot1n within .\Windows\Temp
-• 1pkub5lt within .\Windows\Temp
-• x.dll.zip within .\TEMP
-• versions.txt within \Sites\USAHerds\usaherds\versions.txt
-• Change rights to process C:\windows\system32\spoolsv.exe
-• W3WP.exe->ipconfig /all
-• W3WP.exe->netstat -ano -p tcp
-• Reg save hklm\sam C:\ProgramData\SAM
-• Reg save hklm\system C:\ProgramData\SYSTEM
-• Dropped files in C:\programdata including users.dat
+
+usaherds/Logon.aspx 
+.\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary 
+Files\usaherds\c99cd219\8fb4a6b8
+App_Web_egdio02m.dll within .\Windows\Microsoft.NET\Framework64\v4.0.30319\Temporary
+ASP.NET Files\usaherds\c99cd219\8fb4a6b8
+t.dll within .\Users\Public
+ntuser.dll.zip within .\TEMP
+cmqpxyxl within .\Windows\Temp
+t.dll.zip within .\TEMP
+cmxnot1n within .\Windows\Temp
+1pkub5lt within .\Windows\Temp
+x.dll.zip within .\TEMP
+versions.txt within \Sites\USAHerds\usaherds\versions.txt
+Change rights to process C:\windows\system32\spoolsv.exe
+W3WP.exe->ipconfig /all
+W3WP.exe->netstat -ano -p tcp
+Reg save hklm\sam C:\ProgramData\SAM
+Reg save hklm\system C:\ProgramData\SYSTEM
+Dropped files in C:\programdata including users.dat
